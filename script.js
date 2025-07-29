@@ -18,21 +18,34 @@ const perguntas = [
             },
         ]
     },
+
     {
-        enunciado:Arthur caminhou pela floresta, viu que no mapa, tinha uma caverna e seguindo ele achou a caverna.
+        enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes
         alternativas: [
-            "ir para a caverna"
-            "ir para embora"
+            { 
+            texto: "floresta"
+            afirmação: "afirmação"
+            },
+             { 
+            texto: "ir para a prisão"
+            afirmação: "afirmação"
+            },
         ]
     },
-    {
-        enunciado:
-        alternativas: [
-            "ir para a floresta"
-            "ir para a prisão"
+    
+      {
+        enunciado:Arthur viu que seguir a floresta encontra uma caverna
+        : [
+            { 
+            texto: "ir para caverna"
+            afirmação: "afirmação"
+            },
+             { 
+            texto: "voltar"
+            afirmação: "afirmação"
+            },
         ]
     },
-    }
 ];
 let  atual = 0;
 let perguntaAtual;
