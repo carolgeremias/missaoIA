@@ -8,8 +8,14 @@ const perguntas = [
     {
         enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes
         alternativas: [
-            "ir para a floresta"
-            "ir para a prisão"
+            { 
+            texto: "ir para a floresta"
+            afirmação: "afirmação"
+            },
+             { 
+            texto: "ir para a prisão"
+            afirmação: "afirmação"
+            },
         ]
     },
     {
@@ -27,4 +33,13 @@ const perguntas = [
         ]
     },
     }
-]
+];
+let  atual = 0;
+let perguntaAtual;
+
+function mostraPergunta ( ) {
+    pergunraAtual = perguntas [atual];
+    caixaPerguntas.textContent = perguntas.enunciado;
+}
+
+mostraPergunta ();
