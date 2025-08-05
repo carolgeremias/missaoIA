@@ -6,7 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes
+        "enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes";
         alternativas: [
             { 
             texto: "ir para a floresta"
@@ -20,7 +20,7 @@ const perguntas = [
     },
 
     {
-        enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes
+        "enunciado:Arthur achou o mapa do tesouro, e partiu para caçar O Tesouro, e viu que no mapa tem riscos marrons e verdes";
         alternativas: [
             { 
             texto: "floresta"
@@ -34,7 +34,7 @@ const perguntas = [
     },
     
       {
-        enunciado:Arthur viu que seguir a floresta encontra uma caverna
+        "enunciado:Arthur viu que seguir a floresta encontra uma caverna";
         : [
             { 
             texto: "ir para caverna"
