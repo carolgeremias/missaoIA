@@ -15,7 +15,7 @@ const perguntas = [
             {
                 texto: "Partiu Nessa!",
                 afirmacao: "Você vai a Aventura"
-            }
+            },
         ],
     },
     {
