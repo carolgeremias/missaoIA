@@ -7,10 +7,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "Assim que saiu da escola você se depara com um mapa do tesouro, nele esta varios lugares que você tem que atravessar. Oque ele deve fazer?",
-        alternativas: [
-            {
-                texto: "ir embora",
-                afirmacao: "No início ficou com medo e recusou essa aventura. "
+        alternativas: ["ir embora", "No início ficou com medo e recusou essa aventura. "
             },
             {
                 texto: "Partiu Nessa!",
