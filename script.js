@@ -28,7 +28,7 @@ const perguntas = [
             {
                 texto: "Ignorar e voltar",
                 afirmacao: "Você volta para a casa"
-            }
+            },
         ],
     },
     {
@@ -41,7 +41,7 @@ const perguntas = [
             {
                 texto: "Caminho 2",
                 afirmacao: "você não acha a caverna"
-            }
+            },
         ],
     },
     {
@@ -54,7 +54,7 @@ const perguntas = [
             {
                 texto: "Não cavar",
                 afirmacao: "Você não cava"
-            }
+            },
         ],
     },
     {
@@ -67,7 +67,7 @@ const perguntas = [
             {
                 texto: "Gastar tudo no Tigrinho",
                 afirmacao: "Ele ameaçou jogar a carta mas não jogou e perdeu tudo, FIM! (OTÁRIO)"
-            }
+            },
         ],
     },
 ];
