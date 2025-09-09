@@ -6,8 +6,11 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com um mapa do tesouro, nele esta varios lugares que você tem que atravessar. Oque ele deve fazer?",
-    alternativas: ["ir embora", "No início ficou com medo e recusou essa aventura."],
+        enunciado: "Assim que saiu da escola você se depara com um mapa do tesouro, nele esta varios lugares que você tem que atravessar. Oque ele deve fazer?"
+    alternativas: [
+        {
+            texto: "ir embora", 
+            afirmacao: "No início ficou com medo e recusou essa aventura."
             },
             {
                 texto: "Partiu Nessa!",
@@ -16,45 +19,46 @@ const perguntas = [
         ]
     },
     {
-        enunciado: " o mapa leva para a floresta, assim que chega vê que há um cercado, mas acha um alicate ali perto"
+        enunciado: "O mapa leva para a floresta, assim que chega vê que há um cercado, mas acha um alicate ali perto"
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta"
-                afirmacao: "vc corta o cercado e vai para a floresta"
-                "
+                afirmacao: "Você corta o cercado e vai para a floresta"
             },
             {
-                texto: "ignorar e voltar",
-                afirmacao: "você volta para a casa"
+                texto: "Ignorar e voltar",
+                afirmacao: "Você volta para a casa"
             }
         ]
     },
     {
-        enunciado: "após você seguir a floresta você encontra 2 caminhos
+        enunciado: "Após você seguir a floresta você encontra 2 caminhos"
+        alternativas: [
             {
-                texto: "caminho 1",
+                texto: "Caminho 1",
                 afirmacao: "você acha a caverna"
             },
             {
-                texto: "caminho 2",
+                texto: "Caminho 2",
                 afirmacao: "você não acha a caverna"
             }
         ]
     },
     {
-        enunciado: "o mapa do tesouro te leva para a caverna, você segue e acha um 'X' ",
+        enunciado: "O mapa do tesouro te leva para a caverna, você segue e acha um 'X'"
         alternativas: [
             {
-                texto: "cavar",
-                afirmacao: "você acha um baú"
+                texto: "Cavar",
+                afirmacao: "Você acha um baú"
             },
             {
-                texto: "não cavar",
-                afirmacao: "você não cava"
+                texto: "Não cavar",
+                afirmacao: "Você não cava"
+            }
         ]
     },
     {
-        enunciado: "você pega o baú do tesouro após abrir, acha vários tesouros, mas vocÊ se pergunta sobre oque deve fazer.",
+        enunciado: "você pega o baú do tesouro após abrir, acha vários tesouros, mas vocÊ se pergunta sobre oque deve fazer."
         alternativas: [
             {
                 texto: "Doar todo o tesouro para a caridade",
@@ -62,7 +66,7 @@ const perguntas = [
             },
             {
                 texto: "Gastar tudo no Tigrinho",
-                afirmacao: "Ele ameaçou jogar a carta mas não jogou e perdeu tudo, FIM! (OTÁRIO) "
+                afirmacao: "Ele ameaçou jogar a carta mas não jogou e perdeu tudo, FIM! (OTÁRIO)"
             }
         ]
     },
